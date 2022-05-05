@@ -33,6 +33,26 @@ pt-br
 - pymysql
 - pyodbc
 
+> As informações de configuração de conexão com os bancos de dados e com o ambiente do Google Cloud estão no arquivo etlprocess.ini
+>
+> [ELTCONFIG]
+>
+> server = server db
+>
+> userName = user db
+>
+> passWord = password db
+>
+> dataBase = databasename
+>
+> fileName = filename
+>
+> bucketName = bucketname
+>
+> tableId =  tableId
+>
+> credentials = path google-api.json
+
 ___
 
 English
@@ -69,3 +89,23 @@ ___
 - pymssql
 - pymysql
 - pyodbc
+
+> The configuration for connecting into the databases and the Google Cloud environment is in the etlprocess.ini file
+>
+> [ELTCONFIG]
+>
+> server = server db
+>
+> userName = user db
+>
+> passWord = password db
+>
+> dataBase = databasename
+>
+> fileName = filename
+>
+> bucketName = bucketname
+>
+> tableId =  tableId
+>
+> credentials = path google-api.json
