@@ -13,7 +13,7 @@ pt-br
 ### Components.DataBase
 
 - Responsável pela comunicação com as bases de dados. Podendo se comunicar com 3 tipos diferentes de banco:
-    - Sql Server
+    - Sql server
     - MySQL
     - PostgreSQL
 
