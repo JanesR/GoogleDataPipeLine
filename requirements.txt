@@ -1,0 +1,10 @@
+google-cloud-bigquery
+google-cloud-storage
+pandas
+sqlalchemy
+pyarrow
+fastparquet
+configparser
+pymssql
+pymysql
+pyodbc
