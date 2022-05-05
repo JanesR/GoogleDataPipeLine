@@ -17,5 +17,5 @@ class OperationFiles():
         #gera do dataframe de conversão a partir da query informada
         dataFrame = pd.read_sql(query,conn)
         #converte o arquivo em parquet
-        dataFrame.to_parquet(fileName)
+        dataFrame.to_parquet(fileName,compression="gzip")
         return exists(fileName)
